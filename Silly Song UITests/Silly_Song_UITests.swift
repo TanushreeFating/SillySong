@@ -40,31 +40,7 @@ class Silly_Song_UITests: XCTestCase {
        // XCTAssertEqual(enterYourNameTextField.exists, true)
          XCTAssertEqual(enterYourNameTextField.value as! String, "tanu", "Text field value is  correct")
         }
-    
-    func testTextView(){
-//        let enterYourNameTextField = app.textViews["<FULL_NAME>, <FULL_NAME>, Bo B<SHORT_NAME>","Banana Fana Fo F<SHORT_NAME>","Me My Mo M<SHORT_NAME>","<FULL_NAME>"]
-//        //enterYourNameTextField.tap()
-//        app.otherElements.containing(.image, identifier:"3.png").children(matching: .textView).element.exists
-        let textView = app.otherElements.containing(.image, identifier:"3.png").children(matching: .textView).element
-        //textView.tap()
-        
-        
-        
-    }
-//    func testLyricsView(){
-//        let nameTextField = app.textFields["Enter Your Name"]
-//        nameTextField.tap()
-//        nameTextField.typeText("tanu")
-//        XCUIApplication().otherElements.containing(.image, identifier:"3.png").children(matching: .textView).element.tap()
-//        app.otherElements.containing(.image, identifier:"3.png").element.tap()
-//        let lyricsText = app.staticTexts["Tanu, Tanu, Bo Banu Banana Fana Fo Fanu Me My Mo Manu Tanu"]
-////        XCTAssertEqual(lyricsText.value as! String, "Tanu, Tanu, Bo Banu Banana Fana Fo Fanu Me My Mo Manu Tanu", "Text field value is  correct")
-//
-////        XCTAssert([lyricsText.value, isEqualToString:@"Tanu, Tanu, Bo Banu Banana Fana Fo Fanu Me My Mo Manu Tanu"]);
-////
-//
-//        }
-    
+
 }
 
 
